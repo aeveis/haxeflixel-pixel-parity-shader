@@ -41,7 +41,7 @@ class PlayState extends FlxState
 		lou5 = new FlxSprite(FlxG.width * 0.9 - 8, FlxG.height * 0.7 - 8, AssetPaths.lou__png);
 		add(lou5);
 		
-		FlxG.camera.setFilters([new ShaderFilter(new PixelParityShader(160,90))]);
+		FlxG.camera.setFilters([new ShaderFilter(new PixelParityShader(FlxG.width, FlxG.height))]);
 	}
 
 	override public function update(elapsed:Float)
