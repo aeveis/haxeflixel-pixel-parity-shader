@@ -15,5 +15,6 @@ Press Space to rotate next sprite
 Knowing the width and height, the UVs in the camera are ceiling-ed to next pixel color.
 
 ### Notes
-- May not work as well when scale is 1. 
+- May not work as well when scale is 1.
+- You can get some blurring, especially if sprites are at a sub pixel value.
 - Does not currently work with resizing windows, as the UVs do not update with a window resize.
