@@ -18,3 +18,5 @@ Knowing the width and height, the UVs in the camera are ceiling-ed to next pixel
 - May not work as well when scale is 1.
 - You can get some blurring, especially if sprites are at a sub pixel value.
 - Does not currently work with resizing windows, as the UVs do not update with a window resize.
+
+This was made after thinking about different ways to implement pixel perfect rotations after some brief discussion with AustinEast's solution here: https://github.com/AustinEast/haxeflixel-pixel-perfect
